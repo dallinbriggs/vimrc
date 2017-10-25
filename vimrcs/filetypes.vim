@@ -75,3 +75,7 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+""""""""""""""""""""""""""""""
+" => Ros section
+""""""""""""""""""""""""""""""
+autocmd BufNewFile,BufRead *.launch set syntax=xml
